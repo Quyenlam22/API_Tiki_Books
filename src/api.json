@@ -339,24 +339,59 @@
   ],
   "categories": [
     {
-      "createdAt": "2025-03-13T20:45:22.296Z",
-      "name": "Categories 1",
-      "id": "1"
+      "id": 316,
+      "name": "Sách tiếng Việt",
+      "createdAt": "2025-08-20T09:30:00.000Z"
     },
     {
-      "createdAt": "2025-03-13T06:41:03.515Z",
-      "name": "Categories 2",
-      "id": "2"
+      "id": 385,
+      "name": "Sách kỹ năng làm việc",
+      "createdAt": "2025-08-20T09:30:00.000Z"
     },
     {
-      "createdAt": "2025-03-13T03:06:37.178Z",
-      "name": "Categories 3",
-      "id": "3"
+      "id": 845,
+      "name": "Truyện ngắn - Tản văn - Tạp Văn",
+      "createdAt": "2025-08-20T09:30:00.000Z"
     },
     {
-      "createdAt": "2025-03-13T20:45:22.296Z",
-      "name": "Categories 1",
-      "id": "5"
+      "id": 842,
+      "name": "Tác phẩm kinh điển",
+      "createdAt": "2025-08-20T09:30:00.000Z"
+    },
+    {
+      "id": 871,
+      "name": "Sách tư duy - Kỹ năng sống",
+      "createdAt": "2025-08-20T09:30:00.000Z"
+    },
+    {
+      "id": 320,
+      "name": "English Books",
+      "createdAt": "2025-08-20T09:30:00.000Z"
+    },
+    {
+      "id": 14896,
+      "name": "Grammar, vocabulary & skills",
+      "createdAt": "2025-08-20T09:30:00.000Z"
+    },
+    {
+      "id": 9,
+      "name": "Fiction - Literature",
+      "createdAt": "2025-08-20T09:30:00.000Z"
+    },
+    {
+      "id": 1755336457656,
+      "name": "Kỹ năng sống",
+      "createdAt": "2025-08-20T09:30:00.000Z"
+    },
+    {
+      "name": "Quacky Adventures",
+      "id": 1755685707270,
+      "createdAt": "2025-08-20T10:28:27.270Z"
+    },
+    {
+      "name": "Le Van A",
+      "id": 1755686684090,
+      "createdAt": "2025-08-20T10:44:44.090Z"
     }
   ],
   "users": [
@@ -366,29 +401,6 @@
       "id": 1
     },
     {
-      "email": "anhtus@mail.com",
-      "password": "$2a$10$E7TfKDAW4lxv6WxZNH/MaeiDnAzG5U6rDYqaoY8OBvJ/WhM0Y80y.",
-      "id": 2
-    },
-    {
-      "email": "vuanhtu1993@gmail.com",
-      "password": "$2a$10$4BhkcOTlUl5zJxx/F3XA2OdEYszMo9QFUCk6i8LZiDXt/6d/EJzyO",
-      "id": 3
-    },
-    {
-      "email": "vuanhtu@gmail.com",
-      "password": "$2a$10$hUAwZTremlmkwoJeC7ZLr.6YnKTHibdchVPjpF571g.TkTrmAil56",
-      "confirmPassword": "12345678aA@",
-      "role": "user",
-      "id": 4,
-      "address": "No4 HHT",
-      "birthDay": "",
-      "fullName": "Vu Anh Tu",
-      "gender": "male",
-      "nickName": "",
-      "phone": "0942428693"
-    },
-    {
       "email": "admin@gmail.com",
       "password": "$2a$10$.sWh.AkcLwRERI90UdJIX.pWAkv8yRNoREAdC.3CXq3ixRNdm/CU6",
       "confirmPassword": "12345678aA@",
@@ -396,176 +408,41 @@
       "id": 5
     },
     {
-      "email": "admin1@gmail.com",
-      "password": "$2a$10$Z5N4nH7Uux428URgnLXsruC6JTzVfKVj3rys4fryVi8pAe25GrKG.",
-      "confirmPassword": "123123",
+      "email": "ledaoquyen@gmail.com",
+      "password": "$2a$10$rX1L5UNL7QELzFsm5tYXyeDhcaemNUBTd3hw1F6dx0spDtk4dWgW.",
       "role": "admin",
-      "id": 6
+      "firstName": "Le Dao",
+      "lastName": "Quyen",
+      "createdAt": "2025-08-12T07:20:27.491Z",
+      "updatedAt": "2025-08-12T07:20:27.491Z",
+      "id": 8
+    },
+    {
+      "email": "quyenlam@gmail.com",
+      "password": "$2a$10$F3xnOM0q73yC2AoONo02kOrZTfKmZPHU8cS5xEtRvpPq6sn/F0GV2",
+      "fullName": "Lê Đào Quyền",
+      "phone": "0358374096",
+      "address": "số 8 ngõ 132/12 Cầu Diễn - Phú Diễn - Minh Khai - Hà Nội",
+      "gender": "male",
+      "birthDay": "2025-08-05",
+      "nickName": "quyenlam",
+      "role": "admin",
+      "id": 9
+    },
+    {
+      "email": "levana@gmail.com",
+      "password": "$2a$10$0OCZ.oSZbrBeWt1CZj3gb.JKUEY7Jx9fPHVqzpXfeDuC/gv7gLlAS",
+      "fullName": "Lê Đào Quyền",
+      "phone": "0358374096",
+      "address": "Vinh Phuc",
+      "gender": "male",
+      "birthDay": "2025-08-05T17:00:00.000Z",
+      "nickName": "levana",
+      "role": "user",
+      "id": 10
     }
   ],
   "books": [
-    {
-      "authors": [
-        {
-          "id": 13992,
-          "name": "Robin Sharma",
-          "slug": "robin-sharma"
-        }
-      ],
-      "book_cover": null,
-      "categories": {
-        "id": 316,
-        "name": "Sách tiếng Việt",
-        "is_leaf": false
-      },
-      "current_seller": {
-        "id": 1,
-        "sku": "2331938564882",
-        "name": "Tiki Trading",
-        "link": "https://tiki.vn/cua-hang/tiki-trading",
-        "logo": "https://vcdn.tikicdn.com/ts/seller/ee/fa/a0/98f3f134f85cff2c6972c31777629aa0.png",
-        "price": 57491,
-        "product_id": "8835160",
-        "store_id": 40395,
-        "is_best_store": false,
-        "is_offline_installment_supported": null
-      },
-      "description": "<p>“Mọi lựa chọn đều giá trị. Mọi bước đi đều quan trọng. Cuộc sống vẫn diễn ra theo cách của nó, không phải theo cách của ta. Hãy kiên nhẫn. Tin tưởng. Hãy giống như người thợ cắt đá, đều đặn từng nhịp, ngày qua ngày. Cuối cùng, một nhát cắt duy nhất sẽ phá vỡ tảng đá và lộ ra viên kim cương. Người tràn đầy nhiệt huyết và tận tâm với việc mình làm không bao giờ bị chối bỏ. Sự thật là thế.”</p>\n<p>Bằng những lời chia sẻ thật ngắn gọn, dễ hiểu về những trải nghiệm và suy ngẫm trong đời, Robin Sharma tiếp tục phong cách viết của ông từ cuốn sách Điều vĩ đại đời thường để mang đến cho độc giả những bài viết như lời tâm sự, vừa chân thành vừa sâu sắc.</p><p>Giá sản phẩm trên Tiki đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như phí vận chuyển, phụ phí hàng cồng kềnh, thuế nhập khẩu (đối với đơn hàng giao từ nước ngoài có giá trị trên 1 triệu đồng).....</p>",
-      "images": [
-        {
-          "base_url": "https://salt.tikicdn.com/ts/product/57/44/86/19de0644beef19b9b885d0942f7d6f25.jpg",
-          "is_gallery": true,
-          "label": null,
-          "large_url": "https://salt.tikicdn.com/cache/w1200/ts/product/57/44/86/19de0644beef19b9b885d0942f7d6f25.jpg",
-          "medium_url": "https://salt.tikicdn.com/cache/w300/ts/product/57/44/86/19de0644beef19b9b885d0942f7d6f25.jpg",
-          "position": null,
-          "small_url": "https://salt.tikicdn.com/cache/200x280/ts/product/57/44/86/19de0644beef19b9b885d0942f7d6f25.jpg",
-          "thumbnail_url": "https://salt.tikicdn.com/cache/200x280/ts/product/57/44/86/19de0644beef19b9b885d0942f7d6f25.jpg"
-        }
-      ],
-      "list_price": 75000,
-      "name": "Đời Ngắn Đừng Ngủ Dài (Tái Bản)",
-      "original_price": 75000,
-      "quantity_sold": {
-        "text": "Đã bán 1000+",
-        "value": 42844
-      },
-      "rating_average": 4.8,
-      "short_description": "“Mọi lựa chọn đều giá trị. Mọi bước đi đều quan trọng. Cuộc sống vẫn diễn ra theo cách của nó, không phải theo cách của ta. Hãy kiên nhẫn. Tin tưởng. Hãy giống như người thợ cắt đá, đều đặn từng nhịp,...",
-      "specifications": [
-        {
-          "name": "Thông tin chung",
-          "attributes": [
-            {
-              "code": "publisher_vn",
-              "name": "Công ty phát hành",
-              "value": "NXB Trẻ"
-            },
-            {
-              "code": "publication_date",
-              "name": "Ngày xuất bản",
-              "value": "2018-12-01 00:00:00"
-            },
-            {
-              "code": "dimensions",
-              "name": "Kích thước",
-              "value": "13 x 20.5 cm"
-            },
-            {
-              "code": "book_cover",
-              "name": "Loại bìa",
-              "value": "Bìa mềm"
-            },
-            {
-              "code": "number_of_page",
-              "name": "Số trang",
-              "value": "228"
-            }
-          ]
-        }
-      ],
-      "id": "6"
-    },
-    {
-      "book_cover": null,
-      "categories": {
-        "id": 316,
-        "name": "Sách tiếng Việt",
-        "is_leaf": false
-      },
-      "current_seller": {
-        "id": 53660,
-        "sku": "9472871563136",
-        "name": "Nhà sách Fahasa",
-        "link": "https://tiki.vn/cua-hang/nha-sach-fahasa",
-        "logo": "ce/b3/22/b8fabaef7909cfe7349e7b538a174ab8.jpg",
-        "price": 108000,
-        "product_id": "74677933",
-        "store_id": 51001,
-        "is_best_store": false,
-        "is_offline_installment_supported": null
-      },
-      "description": "<p>“Vị chua chát của cái nghèo hòa trộn với vị ngọt ngào khi khám phá ra những điều khiến cuộc đời này đáng số một tác phẩm kinh điển của Brazil.”</p>\n<p>- Booklist</p>\n<p>“Một cách nhìn cuộc sống gần như hoàn chỉnh từ con mắt trẻ thơ… có sức mạnh sưởi ấm và làm tan nát cõi lòng, dù người đọc ở lứa tuổi nào.”</p>\n<p>- The National</p>\n<p>Hãy làm quen với Zezé, cậu bé tinh nghịch siêu hạng đồng thời cũng đáng yêu bậc nhất, với ước mơ lớn lên trở thành nhà thơ cổ thắt nơ bướm. Chẳng phải ai cũng công nhận khoản “đáng yêu” kia đâu nhé. Bởi vì, ở cái xóm ngoại ô nghèo ấy, nỗi khắc khổ bủa vây đã che mờ mắt người ta trước trái tim thiện lương cùng trí tưởng tượng tuyệt vời của cậu bé con năm tuổi.</p>\n<p>Có hề gì đâu bao nhiêu là hắt hủi, đánh mắng, vì Zezé đã có một người bạn đặc biệt để trút nỗi lòng: cây cam ngọt nơi vườn sau. Và cả một người bạn nữa, bằng xương bằng thịt, một ngày kia xuất hiện, cho cậu bé nhạy cảm khôn sớm biết thế nào là trìu mến, thế nào là nỗi đau, và mãi mãi thay đổi cuộc đời cậu.<br />Mở đầu bằng những thanh âm trong sáng và kết thúc lắng lại trong những nốt trầm hoài niệm, Cây cam ngọt của tôi khiến ta nhận ra vẻ đẹp thực sự của cuộc sống đến từ những điều giản dị như bông hoa trắng của cái cây sau nhà, và rằng cuộc đời thật khốn khổ nếu thiếu đi lòng yêu thương và niềm trắc ẩn. Cuốn sách kinh điển này bởi thế không ngừng khiến trái tim người đọc khắp thế giới thổn thức, kể từ khi ra mắt lần đầu năm 1968 tại Brazil.</p>\n<p><strong>Tác giả: </strong></p>\n<p>JOSÉ MAURO DE VASCONCELOS (1920-1984) là nhà văn người Brazil. Sinh ra trong một gia đình nghèo ở ngoại ô Rio de Janeiro, lớn lên ông phải làm đủ nghề để kiếm sống. Nhưng với tài kể chuyện thiên bẩm, trí nhớ phi thường, trí tưởng tượng tuyệt vời cùng vốn sống phong phú, José cảm thấy trong mình thôi thúc phải trở thành nhà văn nên đã bắt đầu sáng tác năm 22 tuổi. Tác phẩm nổi tiếng nhất của ông là tiểu thuyết mang màu sắc tự truyện Cây cam ngọt của tôi. Cuốn sách được đưa vào chương trình tiểu học của Brazil, được bán bản quyền cho hai mươi quốc gia và chuyển thể thành phim điện ảnh. Ngoài ra, José còn rất thành công trong vai trò diễn viên điện ảnh và biên kịch.</p><p>Giá sản phẩm trên Tiki đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như phí vận chuyển, phụ phí hàng cồng kềnh, thuế nhập khẩu (đối với đơn hàng giao từ nước ngoài có giá trị trên 1 triệu đồng).....</p>",
-      "images": [
-        {
-          "base_url": "https://salt.tikicdn.com/ts/product/5e/18/24/2a6154ba08df6ce6161c13f4303fa19e.jpg",
-          "is_gallery": true,
-          "label": null,
-          "large_url": "https://salt.tikicdn.com/cache/w1200/ts/product/5e/18/24/2a6154ba08df6ce6161c13f4303fa19e.jpg",
-          "medium_url": "https://salt.tikicdn.com/cache/w300/ts/product/5e/18/24/2a6154ba08df6ce6161c13f4303fa19e.jpg",
-          "position": null,
-          "small_url": "https://salt.tikicdn.com/cache/200x280/ts/product/5e/18/24/2a6154ba08df6ce6161c13f4303fa19e.jpg",
-          "thumbnail_url": "https://salt.tikicdn.com/cache/200x280/ts/product/5e/18/24/2a6154ba08df6ce6161c13f4303fa19e.jpg"
-        }
-      ],
-      "list_price": 108000,
-      "name": "Cây Cam Ngọt Của Tôi - Tái bản lần 2",
-      "original_price": 108000,
-      "quantity_sold": {
-        "text": "Đã bán 805",
-        "value": 805
-      },
-      "rating_average": 5,
-      "short_description": "“Vị chua chát của cái nghèo hòa trộn với vị ngọt ngào khi khám phá ra những điều khiến cuộc đời này đáng số một tác phẩm kinh điển của Brazil.”- Booklist“Một cách nhìn cuộc sống gần như hoàn chỉnh t...",
-      "specifications": [
-        {
-          "name": "Thông tin chung",
-          "attributes": [
-            {
-              "code": "publisher_vn",
-              "name": "Công ty phát hành",
-              "value": "Nhã Nam"
-            },
-            {
-              "code": "dimensions",
-              "name": "Kích thước",
-              "value": "14 x 20.5 cm"
-            },
-            {
-              "code": "dich_gia",
-              "name": "Dịch Giả",
-              "value": "Nguyễn Bích Lan , Tô Yến Ly"
-            },
-            {
-              "code": "book_cover",
-              "name": "Loại bìa",
-              "value": "Bìa mềm"
-            },
-            {
-              "code": "number_of_page",
-              "name": "Số trang",
-              "value": "244"
-            },
-            {
-              "code": "manufacturer",
-              "name": "Nhà xuất bản",
-              "value": "Nhà Xuất Bản Hội Nhà Văn"
-            }
-          ]
-        }
-      ],
-      "id": "7"
-    },
     {
       "authors": [
         {
@@ -3188,9 +3065,393 @@
         }
       ],
       "id": "31"
+    },
+    {
+      "authors": [
+        {
+          "id": 13992,
+          "name": "Robin Sharma",
+          "slug": "robin-sharma"
+        }
+      ],
+      "book_cover": null,
+      "categories": {
+        "id": 316,
+        "name": "Sách tiếng Việt",
+        "is_leaf": false
+      },
+      "current_seller": {
+        "id": 1,
+        "sku": "2331938564882",
+        "name": "Tiki Trading",
+        "link": "https://tiki.vn/cua-hang/tiki-trading",
+        "logo": "https://vcdn.tikicdn.com/ts/seller/ee/fa/a0/98f3f134f85cff2c6972c31777629aa0.png",
+        "price": 57491,
+        "product_id": "8835160",
+        "store_id": 40395,
+        "is_best_store": false,
+        "is_offline_installment_supported": null
+      },
+      "description": "<p>“Mọi lựa chọn đều giá trị. Mọi bước đi đều quan trọng. Cuộc sống vẫn diễn ra theo cách của nó, không phải theo cách của ta. Hãy kiên nhẫn. Tin tưởng. Hãy giống như người thợ cắt đá, đều đặn từng nhịp, ngày qua ngày. Cuối cùng, một nhát cắt duy nhất sẽ phá vỡ tảng đá và lộ ra viên kim cương. Người tràn đầy nhiệt huyết và tận tâm với việc mình làm không bao giờ bị chối bỏ. Sự thật là thế.”</p>\n<p>Bằng những lời chia sẻ thật ngắn gọn, dễ hiểu về những trải nghiệm và suy ngẫm trong đời, Robin Sharma tiếp tục phong cách viết của ông từ cuốn sách Điều vĩ đại đời thường để mang đến cho độc giả những bài viết như lời tâm sự, vừa chân thành vừa sâu sắc.</p><p>Giá sản phẩm trên Tiki đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như phí vận chuyển, phụ phí hàng cồng kềnh, thuế nhập khẩu (đối với đơn hàng giao từ nước ngoài có giá trị trên 1 triệu đồng).....</p>",
+      "images": [
+        {
+          "base_url": "https://salt.tikicdn.com/ts/product/57/44/86/19de0644beef19b9b885d0942f7d6f25.jpg",
+          "is_gallery": true,
+          "label": null,
+          "large_url": "https://salt.tikicdn.com/cache/w1200/ts/product/57/44/86/19de0644beef19b9b885d0942f7d6f25.jpg",
+          "medium_url": "https://salt.tikicdn.com/cache/w300/ts/product/57/44/86/19de0644beef19b9b885d0942f7d6f25.jpg",
+          "position": null,
+          "small_url": "https://salt.tikicdn.com/cache/200x280/ts/product/57/44/86/19de0644beef19b9b885d0942f7d6f25.jpg",
+          "thumbnail_url": "https://salt.tikicdn.com/cache/200x280/ts/product/57/44/86/19de0644beef19b9b885d0942f7d6f25.jpg"
+        }
+      ],
+      "list_price": 75000,
+      "name": "Đời Ngắn Đừng Ngủ Dài (Tái Bản)",
+      "original_price": 75000,
+      "quantity_sold": {
+        "text": "Đã bán 1000+",
+        "value": 42844
+      },
+      "rating_average": 4.8,
+      "short_description": "“Mọi lựa chọn đều giá trị. Mọi bước đi đều quan trọng. Cuộc sống vẫn diễn ra theo cách của nó, không phải theo cách của ta. Hãy kiên nhẫn. Tin tưởng. Hãy giống như người thợ cắt đá, đều đặn từng nhịp,...",
+      "specifications": [
+        {
+          "name": "Thông tin chung",
+          "attributes": [
+            {
+              "code": "publisher_vn",
+              "name": "Công ty phát hành",
+              "value": "NXB Trẻ"
+            },
+            {
+              "code": "publication_date",
+              "name": "Ngày xuất bản",
+              "value": "2018-12-01 00:00:00"
+            },
+            {
+              "code": "dimensions",
+              "name": "Kích thước",
+              "value": "13 x 20.5 cm"
+            },
+            {
+              "code": "book_cover",
+              "name": "Loại bìa",
+              "value": "Bìa mềm"
+            },
+            {
+              "code": "number_of_page",
+              "name": "Số trang",
+              "value": "228"
+            }
+          ]
+        }
+      ],
+      "id": "6"
+    },
+    {
+      "book_cover": null,
+      "categories": {
+        "id": 316,
+        "name": "Sách tiếng Việt",
+        "is_leaf": false
+      },
+      "current_seller": {
+        "id": 53660,
+        "sku": "9472871563136",
+        "name": "Nhà sách Fahasa",
+        "link": "https://tiki.vn/cua-hang/nha-sach-fahasa",
+        "logo": "ce/b3/22/b8fabaef7909cfe7349e7b538a174ab8.jpg",
+        "price": 108000,
+        "product_id": "74677933",
+        "store_id": 51001,
+        "is_best_store": false,
+        "is_offline_installment_supported": null
+      },
+      "description": "<p>“Vị chua chát của cái nghèo hòa trộn với vị ngọt ngào khi khám phá ra những điều khiến cuộc đời này đáng số một tác phẩm kinh điển của Brazil.”</p>\n<p>- Booklist</p>\n<p>“Một cách nhìn cuộc sống gần như hoàn chỉnh từ con mắt trẻ thơ… có sức mạnh sưởi ấm và làm tan nát cõi lòng, dù người đọc ở lứa tuổi nào.”</p>\n<p>- The National</p>\n<p>Hãy làm quen với Zezé, cậu bé tinh nghịch siêu hạng đồng thời cũng đáng yêu bậc nhất, với ước mơ lớn lên trở thành nhà thơ cổ thắt nơ bướm. Chẳng phải ai cũng công nhận khoản “đáng yêu” kia đâu nhé. Bởi vì, ở cái xóm ngoại ô nghèo ấy, nỗi khắc khổ bủa vây đã che mờ mắt người ta trước trái tim thiện lương cùng trí tưởng tượng tuyệt vời của cậu bé con năm tuổi.</p>\n<p>Có hề gì đâu bao nhiêu là hắt hủi, đánh mắng, vì Zezé đã có một người bạn đặc biệt để trút nỗi lòng: cây cam ngọt nơi vườn sau. Và cả một người bạn nữa, bằng xương bằng thịt, một ngày kia xuất hiện, cho cậu bé nhạy cảm khôn sớm biết thế nào là trìu mến, thế nào là nỗi đau, và mãi mãi thay đổi cuộc đời cậu.<br />Mở đầu bằng những thanh âm trong sáng và kết thúc lắng lại trong những nốt trầm hoài niệm, Cây cam ngọt của tôi khiến ta nhận ra vẻ đẹp thực sự của cuộc sống đến từ những điều giản dị như bông hoa trắng của cái cây sau nhà, và rằng cuộc đời thật khốn khổ nếu thiếu đi lòng yêu thương và niềm trắc ẩn. Cuốn sách kinh điển này bởi thế không ngừng khiến trái tim người đọc khắp thế giới thổn thức, kể từ khi ra mắt lần đầu năm 1968 tại Brazil.</p>\n<p><strong>Tác giả: </strong></p>\n<p>JOSÉ MAURO DE VASCONCELOS (1920-1984) là nhà văn người Brazil. Sinh ra trong một gia đình nghèo ở ngoại ô Rio de Janeiro, lớn lên ông phải làm đủ nghề để kiếm sống. Nhưng với tài kể chuyện thiên bẩm, trí nhớ phi thường, trí tưởng tượng tuyệt vời cùng vốn sống phong phú, José cảm thấy trong mình thôi thúc phải trở thành nhà văn nên đã bắt đầu sáng tác năm 22 tuổi. Tác phẩm nổi tiếng nhất của ông là tiểu thuyết mang màu sắc tự truyện Cây cam ngọt của tôi. Cuốn sách được đưa vào chương trình tiểu học của Brazil, được bán bản quyền cho hai mươi quốc gia và chuyển thể thành phim điện ảnh. Ngoài ra, José còn rất thành công trong vai trò diễn viên điện ảnh và biên kịch.</p><p>Giá sản phẩm trên Tiki đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như phí vận chuyển, phụ phí hàng cồng kềnh, thuế nhập khẩu (đối với đơn hàng giao từ nước ngoài có giá trị trên 1 triệu đồng).....</p>",
+      "images": [
+        {
+          "base_url": "https://salt.tikicdn.com/ts/product/5e/18/24/2a6154ba08df6ce6161c13f4303fa19e.jpg",
+          "is_gallery": true,
+          "label": null,
+          "large_url": "https://salt.tikicdn.com/cache/w1200/ts/product/5e/18/24/2a6154ba08df6ce6161c13f4303fa19e.jpg",
+          "medium_url": "https://salt.tikicdn.com/cache/w300/ts/product/5e/18/24/2a6154ba08df6ce6161c13f4303fa19e.jpg",
+          "position": null,
+          "small_url": "https://salt.tikicdn.com/cache/200x280/ts/product/5e/18/24/2a6154ba08df6ce6161c13f4303fa19e.jpg",
+          "thumbnail_url": "https://salt.tikicdn.com/cache/200x280/ts/product/5e/18/24/2a6154ba08df6ce6161c13f4303fa19e.jpg"
+        }
+      ],
+      "list_price": 108000,
+      "name": "Cây Cam Ngọt Của Tôi - Tái bản lần 2",
+      "original_price": 108000,
+      "quantity_sold": {
+        "text": "Đã bán 805",
+        "value": 805
+      },
+      "rating_average": 5,
+      "short_description": "“Vị chua chát của cái nghèo hòa trộn với vị ngọt ngào khi khám phá ra những điều khiến cuộc đời này đáng số một tác phẩm kinh điển của Brazil.”- Booklist“Một cách nhìn cuộc sống gần như hoàn chỉnh t...",
+      "specifications": [
+        {
+          "name": "Thông tin chung",
+          "attributes": [
+            {
+              "code": "publisher_vn",
+              "name": "Công ty phát hành",
+              "value": "Nhã Nam"
+            },
+            {
+              "code": "dimensions",
+              "name": "Kích thước",
+              "value": "14 x 20.5 cm"
+            },
+            {
+              "code": "dich_gia",
+              "name": "Dịch Giả",
+              "value": "Nguyễn Bích Lan , Tô Yến Ly"
+            },
+            {
+              "code": "book_cover",
+              "name": "Loại bìa",
+              "value": "Bìa mềm"
+            },
+            {
+              "code": "number_of_page",
+              "name": "Số trang",
+              "value": "244"
+            },
+            {
+              "code": "manufacturer",
+              "name": "Nhà xuất bản",
+              "value": "Nhà Xuất Bản Hội Nhà Văn"
+            }
+          ]
+        }
+      ],
+      "id": "7"
+    },
+    {
+      "authors": [
+        {
+          "id": 1755336457656,
+          "name": "Le Van A",
+          "slug": "le-van-a"
+        }
+      ],
+      "book_cover": null,
+      "categories": {
+        "id": 1755336457656,
+        "name": "Kỹ năng sống",
+        "is_leaf": false
+      },
+      "current_seller": {
+        "price": 10000,
+        "id": 1755336457656,
+        "sku": "string",
+        "name": "string",
+        "link": "string",
+        "logo": "string",
+        "product_id": "string",
+        "store_id": 1755336457656,
+        "is_best_store": false,
+        "is_offline_installment_supported": null
+      },
+      "original_price": 10000,
+      "list_price": 10000,
+      "quantity_sold": {
+        "text": "Đã bán 10",
+        "value": 10
+      },
+      "description": "Day La mo ta sach",
+      "images": [
+        {
+          "base_url": "https://salt.tikicdn.com/cache/w1200/ts/product/df/7d/da/d340edda2b0eacb7ddc47537cddb5e08.jpg",
+          "large_url": "https://th.bing.com/th/id/R.4b8ca7d8687072ed6dc73e6c4dd8813b?rik=mb8FlPxm0PEH5Q&pid=ImgRaw&r=0",
+          "medium_url": "https://th.bing.com/th/id/R.4b8ca7d8687072ed6dc73e6c4dd8813b?rik=mb8FlPxm0PEH5Q&pid=ImgRaw&r=0",
+          "small_url": "https://th.bing.com/th/id/R.4b8ca7d8687072ed6dc73e6c4dd8813b?rik=mb8FlPxm0PEH5Q&pid=ImgRaw&r=0",
+          "thumbnail_url": "https://th.bing.com/th/id/R.4b8ca7d8687072ed6dc73e6c4dd8813b?rik=mb8FlPxm0PEH5Q&pid=ImgRaw&r=0"
+        }
+      ],
+      "name": "Đắc Nhân Tâm",
+      "specifications": [
+        {
+          "name": "Thông tin sách",
+          "attributes": [
+            {
+              "code": "publisher_vn",
+              "name": "Công ty phát hành",
+              "value": "NXB Tổng Hợp TP.HCM"
+            },
+            {
+              "code": "publication_date",
+              "name": "Ngày xuất bản",
+              "value": "2025-08-10 00:00:00"
+            },
+            {
+              "code": "book_cover",
+              "name": "Loại bìa",
+              "value": "Bìa mềm"
+            },
+            {
+              "code": "number_of_page",
+              "name": "Số trang",
+              "value": 100
+            }
+          ]
+        }
+      ],
+      "rating_average": 5,
+      "id": "NwDcdnN"
     }
   ],
-  "orders": [],
+  "orders": [
+    {
+      "userId": 8,
+      "address": "",
+      "products": [
+        {
+          "id": 8,
+          "name": "Rừng Nauy (Tái Bản)",
+          "price": 117000,
+          "quantity": 1,
+          "images": [
+            {
+              "base_url": "https://salt.tikicdn.com/ts/product/c9/e4/18/a9cfc425fa590c453f20307229804bb3.jpg"
+            }
+          ]
+        }
+      ],
+      "totalPrice": 117000,
+      "status": "Đang xử lý",
+      "fullname": "",
+      "phone": "",
+      "createdAt": "2025-08-19T15:16:34.547Z",
+      "id": 1
+    },
+    {
+      "userId": 10,
+      "address": "Vinh Phuc",
+      "products": [
+        {
+          "id": 10,
+          "name": "Think And Grow Rich - 13 Nguyên Tắc Nghĩ Giàu, Làm Giàu (Tái Bản)",
+          "price": 77000,
+          "quantity": 1,
+          "images": [
+            {
+              "base_url": "https://salt.tikicdn.com/ts/product/0b/cd/50/9c219e191737b2757911b962eeb54c2c.jpg"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Rừng Nauy (Tái Bản)",
+          "price": 117000,
+          "quantity": 1,
+          "images": [
+            {
+              "base_url": "https://salt.tikicdn.com/ts/product/c9/e4/18/a9cfc425fa590c453f20307229804bb3.jpg"
+            }
+          ]
+        }
+      ],
+      "totalPrice": 194000,
+      "status": "Đang xử lý",
+      "fullname": "Lê Đào Quyền",
+      "phone": "0358374096",
+      "createdAt": "2025-08-20T02:05:56.400Z",
+      "id": 2
+    },
+    {
+      "userId": 10,
+      "address": "Vinh Phuc",
+      "products": [
+        {
+          "id": 10,
+          "name": "Think And Grow Rich - 13 Nguyên Tắc Nghĩ Giàu, Làm Giàu (Tái Bản)",
+          "price": 77000,
+          "quantity": 1,
+          "images": [
+            {
+              "base_url": "https://salt.tikicdn.com/ts/product/0b/cd/50/9c219e191737b2757911b962eeb54c2c.jpg"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Rừng Nauy (Tái Bản)",
+          "price": 117000,
+          "quantity": 1,
+          "images": [
+            {
+              "base_url": "https://salt.tikicdn.com/ts/product/c9/e4/18/a9cfc425fa590c453f20307229804bb3.jpg"
+            }
+          ]
+        }
+      ],
+      "totalPrice": 194000,
+      "status": "Đã hủy",
+      "fullname": "Lê Đào Quyền",
+      "phone": "0358374096",
+      "createdAt": "2025-08-20T02:09:40.610Z",
+      "id": 3
+    },
+    {
+      "userId": 10,
+      "address": "Vinh Phuc",
+      "products": [
+        {
+          "id": 17,
+          "name": "Anh Em Nhà Karamazov (Bìa Cứng)",
+          "price": 260000,
+          "quantity": 3,
+          "images": [
+            {
+              "base_url": "https://salt.tikicdn.com/ts/product/e5/44/50/f2f7b7f873c54fed2ee677a283f6cbcb.jpg"
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "ẤN BẢN BÌA DA PU CAO CẤP VÀ GIỚI HẠN “TỘI ÁC VÀ HÌNH PHẠT” CỦA DOSTOYEVSKY – S300 – NHÃ NAM ",
+          "price": 1700000,
+          "quantity": 1,
+          "images": [
+            {
+              "base_url": "https://salt.tikicdn.com/ts/product/70/53/c2/5e40f93acf2e35a55c262e277457197f.jpeg"
+            }
+          ]
+        }
+      ],
+      "totalPrice": 2480000,
+      "status": "Đang xử lý",
+      "fullname": "Lê Đào Quyền",
+      "phone": "0358374096",
+      "createdAt": "2025-08-20T02:51:41.677Z",
+      "id": 4
+    },
+    {
+      "userId": 10,
+      "address": "Vinh Phuc",
+      "products": [
+        {
+          "id": 10,
+          "name": "Think And Grow Rich - 13 Nguyên Tắc Nghĩ Giàu, Làm Giàu (Tái Bản)",
+          "price": 77000,
+          "quantity": 1,
+          "images": [
+            {
+              "base_url": "https://salt.tikicdn.com/ts/product/0b/cd/50/9c219e191737b2757911b962eeb54c2c.jpg"
+            }
+          ]
+        }
+      ],
+      "totalPrice": 68000,
+      "status": "Đang xử lý",
+      "fullname": "Lê Đào Quyền",
+      "phone": "0358374096",
+      "createdAt": "2025-08-20T06:57:27.355Z",
+      "id": 5
+    }
+  ],
   "reviews": [],
   "coupons": [],
   "carts": [],
